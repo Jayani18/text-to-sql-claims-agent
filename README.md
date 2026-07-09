@@ -152,14 +152,4 @@ missing, wrong, or the file wasn't renamed from `.env.example` to `.env`.
 **"claims.db not found"** — run `python3 setup_database.py` before `python3 agent.py`.
 
 ---
-
-## Ideas to extend this for your resume
-
-- Swap the synthetic claims data for a real public dataset (Kaggle has several
-  insurance/healthcare claims datasets) and adjust the schema/columns.
-- Add a simple Streamlit front end so it's a clickable web app instead of a
-  terminal tool.
-- Add a basic anomaly-detection step (e.g. flag claims more than 3 standard
-  deviations above the mean) before summarizing — ties directly into modeling.
-- Push it to a public GitHub repo with this README as-is — it already explains
-  the architecture and setup, which is exactly what hiring managers look for.
+.
